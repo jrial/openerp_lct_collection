@@ -1,0 +1,15 @@
+[submodule "lct_finance"]
+	path = lct_finance
+	url = git@github.com:jrial/openerp_lct_finance.git
+[submodule "lct_hr"]
+	path = lct_hr
+	url = git@github.com:jrial/openerp_lct_hr.git
+[submodule "lct_payment"]
+	path = lct_payment
+	url = git@github.com:jrial/openerp_lct_payment.git
+[submodule "web_filedownload"]
+	path = web_filedownload
+	url = git@github.com:jrial/openerp_web_filedownload.git
+[submodule "LCT_assets"]
+	path = LCT_assets
+	url = git@github.com:maxmumford/lct_assets.git
