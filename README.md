@@ -20,3 +20,11 @@ Upgrading all modules to the latest version:
 ============================================
 
     git submodule foreach git pull
+
+
+WARNING:
+========
+
+For developers of the submodules, please set up your git to always pull with rebase. See http://stevenharman.net/git-pull-with-automatic-rebase for the reasons and a HOWTO. It keeps the history a lot cleaner, and you can easily see who did what.
+
+Also, make sure you set up your editor to strip trailing whitespace when saving files. It's ugly, unnecessary, and creates diffs that are way larger than they should be, distracting from the actual changes made in the revision.
