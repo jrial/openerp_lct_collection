@@ -13,3 +13,6 @@
 [submodule "LCT_assets"]
 	path = LCT_assets
 	url = git@github.com:maxmumford/lct_assets.git
+[submodule "LCT_supplier_invoice"]
+	path = LCT_supplier_invoice
+	url = https://github.com/apineux/LCT_supplier_invoice.git
