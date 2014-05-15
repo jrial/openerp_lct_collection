@@ -37,7 +37,7 @@ or you can just use the update script at the root of this repo:
 Committing your work:
 =====================
 
-Committing local changes to a submodule (which represents an OpenERP module) involves making the changes, then cd into the submodule folder and commit/push like you normally would. Say you changed __init__.py in LCT_Assets:
+Committing local changes to a submodule (which represents an OpenERP module) involves making the changes, then cd into the submodule folder and commit/push like you normally would. Say you changed \__init__.py in LCT_Assets:
 
     cd LCT_Assets
     git add __init__.py
