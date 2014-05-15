@@ -11,12 +11,16 @@ In your OpenERP installation, clone this repo into the custom folder:
 
     git clone git@github.com:jrial/openerp_lct_collection.git custom
 
+Initialise the submodules:
+
+    git submodule init
+
 Then update to the latest version: due to the way git works, submodules always track a specific commit, not a branch. If I set this up to track a branch instead, it'll always be in detached head mode, making development more difficult.
 
     git submodule foreach git pull
 
 or you can just use the update script at the root of this repo:
-    
+
     ./update_modules.sh
 
 Add the custom folder to your addons path for OpenERP.
@@ -30,7 +34,7 @@ Upgrading all modules to the latest version:
     git submodule foreach git pull
 
 or you can just use the update script at the root of this repo:
-    
+
     ./update_modules.sh
 
 
