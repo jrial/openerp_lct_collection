@@ -11,11 +11,13 @@ In your OpenERP installation, clone this repo into the custom folder:
 
     git clone git@github.com:jrial/openerp_lct_collection.git custom
 
-Initialise the submodules:
+Initialise/pull the submodules and get out of detached HEAD state:
 
     git submodule init
+    git submodule update
+    git submodule foreach git checkout master
 
-Then update to the latest version: due to the way git works, submodules always track a specific commit, not a branch. If I set this up to track a branch instead, it'll always be in detached head mode, making development more difficult.
+Then update to the latest version: due to the way git works, submodules always track a specific commit, not a branch. If I set this up to track a branch instead, it'll always be in detached head mode, making development more difficult. Therefore, I leave it pointing to whatever commit it happened to be at when I last pushed, and just do a git pull on each submodule to bring it up to HEAD.
 
     git submodule foreach git pull
 
