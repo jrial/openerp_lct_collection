@@ -1,3 +1,7 @@
+# LCT Collection
+
+**Kept here for historical reasons/reference/nostalgia/... - project has moved to https://github.com/odoo/lct**
+
 openerp_lct_collection
 ======================
 
